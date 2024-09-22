@@ -33,6 +33,7 @@ box-sizing: border-box;
     border: 1px solid #ddd;
     max-width: 220px;
     max-height:220px;
+    transition: all ease-in-out 0.2s;
 }
 .admin>img{
     display: block;
@@ -42,9 +43,10 @@ box-sizing: border-box;
     width: 50%;
 }
 .admin>img:hover{
-    padding: 5px;
-    border: 2px solid #ddd;
+    padding: 3px;
+    border: 0.5px solid #ddd;
     border-color: hotpink;
+    filter: drop-shadow(1.5px 1.5px 20px cyan);
 }
 .brand{
     text-align: center;
