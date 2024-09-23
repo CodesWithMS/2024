@@ -40,30 +40,44 @@ h1{
     /* animation: ms 1s infinite; */
 }
 #payment>input[type="text"]{
-    text-align: start;
+    text-align: center;
     padding-top: 15px;
     padding-bottom: 5px;
     width: 400px;
     margin-bottom: 10px;
+    border:1px solid black;
+    border-radius: 20px;
+    
 }
 #payment>input[type="password"]{
-    text-align: start;
+    text-align: center;
     padding-top: 15px;
     padding-bottom: 5px;
     width: 400px;
+    border:1px solid black;
+    border-radius: 20px;
 }
-#payment>input[type="password"]:hover{
-    text-align: center;
+.pay>input[type="password"]:hover{
+    border: 1px solid red;
+    filter: drop-shadow(1.5px 1.5px 20px cyan);
 }
 #payment>input[type="text"]:hover{
-    text-align: center;
+    border: 1px solid greenyellow;
+    filter: drop-shadow(1.5px 1.5px 20px cyan);
+    
 }
+/* .pay:hover{
+    filter: drop-shadow(1.5px 1.5px 20px cyan);
+} */
 .btn{
     margin-top: 15px;
 }
 .btn>button{
     padding: 10px;
-    width: 360px;
+    width: 100px;
+    border:1px solid black;
+    border-radius: 20px;
+    transition: all ease-in-out 0.3s;
 }
 .btn>input[type="checkbox"]{
     width: 30px;
@@ -73,6 +87,7 @@ h1{
     transition-duration: 0.5s;
     background-color: #000;
     color: #fff;
+    filter: drop-shadow(1.5px 1.5px 20px red);
 }
 
 @keyframes ms {

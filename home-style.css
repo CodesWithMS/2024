@@ -48,3 +48,8 @@ h1::first-letter{
 h1:hover{
         color: hotpink;
     }
+img{
+    position: fixed;
+    right: 10px;
+    bottom:60px;
+}

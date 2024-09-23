@@ -5,6 +5,8 @@
 body{
     background-image: url(imgs/pexels-bri-schneiter-28802-346529.jpg);
     background-size: cover;
+    height: 768px;
+    width: 100%;
     background-repeat: no-repeat;
 }
 .menubar{
@@ -38,8 +40,8 @@ form{
     text-align: center;
     /* background-color:rgb(139, 80, 100); */
     backdrop-filter: blur(10px);
-    backdrop-filter:brightness(60%);
-    backdrop-filter:contra/st(40%);
+    /* backdrop-filter:brightness(60%); */
+    /* backdrop-filter:contra/st(40%); */
     width: 400px;
     height: 500px;
     border-radius: 5%;
